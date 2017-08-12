@@ -4,11 +4,12 @@ $navbar-default-bg: #404040;
 @import "bootstrap";
 
 .navbar-default .navbar-nav > li > a {
-  color: #fff;
+  color: #bfbfbf;
+  transition: background-color 1s;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  text-decoration: underline;
+  background-color: #000;
   color: #fff;
 }
 
@@ -19,16 +20,18 @@ $navbar-default-bg: #404040;
 #logo {
   float: left;
   font-size: 1.7em;
-  color: #fff;
+  color: #bfbfbf;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  letter-spacing: 5px;
   font-weight: bold;
+  font-family: "Courier New";
+  transition: text-shadow 1s;
 }
 
 #logo:hover {
-  color: #000;
+  color: #fff;
   text-decoration: none;
-  ttext-shadow: 1px 2px 2px white;
+  text-shadow: 5px 2px 2px black;
 }
 
 .center {
