@@ -1,3 +1,99 @@
+$navbar-default-bg: #404040;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #000;
+  text-decoration: none;
+  ttext-shadow: 1px 2px 2px white;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('new_cover_page.png');
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  margin-top: 0px;
+  border-radius: 10px;
+  bbackground-color: #2989c9;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-family: "Courier New";
+  text-decoration: underline;
+  text-shadow: 5px 2px 2px black;
+}
+
+.btn-xlg {
+  text-align: center;
+  font-size: 1.7em;
+  background-color: #00a8b6;
+  color: #fff;
+  width: 200px;
+  transition: width 1s;
+  border-color: #000;
+}
+
+.btn-xlg:hover {
+  background-color: #000;
+  width: 300px;
+  color: #fff;
+  border-color: #fff;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
